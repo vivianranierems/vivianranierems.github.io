@@ -1,0 +1,17 @@
+{
+  "name": "resume_tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    
+    "test": "npx cypress run --record --key c1bc6f85-c124-490d-afcc-03106da22e30 --browser chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.1.0",
+    "cypress-xpath": "^1.6.2"
+  }
+}
